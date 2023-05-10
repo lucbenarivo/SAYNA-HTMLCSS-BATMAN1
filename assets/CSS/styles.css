@@ -1,0 +1,61 @@
+html, body, main, footer{
+  font-family: arial;
+  color: white;
+}
+html{
+  background-image: url("/assets/Illustrations/Bathome1.png");
+  background-size: 1360px;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: top;
+}
+
+header img{
+  margin-left: 200px;
+  margin-top: 40px;
+
+}
+header ul{
+ float:right;
+ margin-right: 200px;
+ margin-top: 40px;
+ 
+}
+header ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  font-family: rajdhani;
+  cursor: pointer;
+}
+header li{
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.section1{
+  inline-size: 500px;
+  text-align: center;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 430px;
+}
+
+.section1 p{
+  font-family: Space Grotesk Light;
+  font-size: 18px;
+  letter-spacing: 1x;
+}
+.section1 h2{
+  font-family: Space Grotesk Light;
+  letter-spacing: 1px;
+}
+.section1 a{
+  text-decoration: none;
+  color: white;
+  font-family: Space Grotesk Light;
+  font-size: 20px;
+  margin: 20px;
+}
