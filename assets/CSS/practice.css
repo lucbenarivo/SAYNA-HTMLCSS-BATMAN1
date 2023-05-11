@@ -1,0 +1,27 @@
+.box{
+  margin: 40px;
+  padding: 5em;
+  background-image: linear-gradient(blue, rgb(6, 6, 65));
+  border-color: black;
+  box-sizing: 2px;
+  background-image: url(/assets/img/balloons.jpg);
+  box-sizing: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10em 40%;
+  border-bottom-right-radius: 10em 40%;
+}
+p{
+  color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 100px;
+  font-weight: bold;
+}
+span{
+  writing-mode: vertical-rl;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
