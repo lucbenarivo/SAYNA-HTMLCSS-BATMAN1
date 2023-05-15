@@ -1,0 +1,106 @@
+.left-section {
+  width: 70px;
+}
+
+.batman-icon {
+  align-items: start;
+  cursor: pointer;
+  height: 36px;
+}
+
+.home-link {
+  color: white;
+  font-size: 26px;
+  font-family: Rajdhani;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom-color: white;
+  border-bottom: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+.right-section {
+  width: 70px;
+}
+
+.batman-sections {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-color: rgba(255, 255, 255, 0.15);
+  border-style: solid;
+  border-bottom: none;
+}
+
+p {
+  color: white;
+  font-family: Space Grotesk;
+}
+
+.hero {
+ text-align: center;
+ font-size: 19px;
+ font-family: Space Grotesk;
+ margin-top: 0px;
+ margin-bottom: 0;
+ height: 80px;
+ letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.heros-link {
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+
+.heros-title {
+  margin-top: 220px;
+  margin-left: 285px;
+  margin-right: 285px;
+}
+
+.hero-button {
+  color: white;
+  font-size: 18px;
+  font-family: Rajdhani;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgb(255, 255, 255, 35%) 0%, rgb(255, 0, 0, 35%) 100%);
+  margin-right: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.adversaires-button {
+  color: white;
+  font-size: 18px;
+  font-family: Rajdhani;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgb(255, 255, 255, 35%) 0%, rgb(255, 0, 0, 35%) 100%);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.flèche-button {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.flèche {
+  align-content: center;
+  width: 60px;
+  margin-top: 250px;
+}

@@ -1,0 +1,84 @@
+.cinema-section {
+  margin-top: 0;
+  margin-left: 60px;
+  margin-right: 180px;
+  
+}
+
+.cinema-title {
+  color: white;
+  font-family: Rajdhani;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.cinema-article {
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.bathome-preview {
+  width: 260px;
+}
+
+.bathome-picture {
+  display: inline-block;
+}
+
+.bathome-name {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.bathome-stats {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.bathome-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+}
+.bathome-icon {
+  width: 140px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 85px;
+  left: 45px;
+}
+
+.bathome-icon2 {
+  position: absolute;
+  right: 0;
+  top: 2600px;
+}
+.cinema-section3 {
+  margin-top: 150px;
+}
+
+.bathome-11{
+  width: 1349px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.justice-position {
+  position: absolute;
+  left: 0px;
+  right: 0;
+}
+
+.justice-picture {
+  width: 1349px;
+  
+}

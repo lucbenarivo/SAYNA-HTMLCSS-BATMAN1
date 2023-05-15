@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url(/assets/Illustrations/Bathome1.png);
+  background-size: 1349px;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+} 
+  p, h1, h2, h3 {
+  color: white;
+  font-family: Space Grotesk;
+}
+
+.batman-11 {
+  width: 1349px;
+}
