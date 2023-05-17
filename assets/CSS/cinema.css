@@ -66,19 +66,9 @@
   margin-top: 150px;
 }
 
-.bathome-11{
-  width: 1349px;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.justice-position {
-  position: absolute;
-  left: 0px;
-  right: 0;
-}
-
 .justice-picture {
-  width: 1349px;
+  object-fit: cover;
+  margin-left: 0;
+  margin-right: 0;
   
 }

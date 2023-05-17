@@ -1,4 +1,13 @@
 .multimedia-section {
-  position: absolute;
-  top: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
 }
+ .adversaires-article {
+  width: 300px;
+ }
+
+ .flèche-icon{
+  text-align: left;
+  
+ }
