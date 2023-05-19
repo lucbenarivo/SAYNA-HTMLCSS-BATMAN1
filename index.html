@@ -51,7 +51,7 @@
               <h2 class="titre">Il et Batman</h2>
               <div class="cta">
                 <a class="voir-hero" href="#cinema-section">Voir le héros</a>
-                <a class="adversaires-button" href="#">LES ADVERSAIRES</a>
+                <a class="adversaires-button" href="#NÉMÉSIS">LES ADVERSAIRES</a>
               </div>
             </div>
               <img class="fleche-icon" src="./assets/Logos/flèche_down_header.png" alt="flèche">
@@ -90,7 +90,7 @@
           </div>
             
             <img class="bathome-nemesis" src="/assets/Illustrations/Bathome13.png" alt="">
-            <h1 class="nemesis-title">NÉMÉSIS</h1>
+            <h1 class="nemesis-title" id="NÉMÉSIS">NÉMÉSIS</h1>
             <p class="cinema-article"> Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart 
               du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou 
               psychopathes. Avec son introduction dans la Justice League il aura l’occasion de se 
@@ -200,25 +200,90 @@
             </div>
         </div>
         
-        <div class="forms">
-          <h1 class="forms-contact">Prenons contact</h1>
-
-            <form class="form-label">
-              <label class="container-email" for="fname">ADRESSE EMAIL</label>
-              <input type="text" id="fname" name="fname" placeholder="Adresse email">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lname">
-
-
-            </form>
-
+         
+     <!-- Les formulaires-->
+    <section id="contact">
+      <div class="form">
+        <h2 class="prenons">PRENONS CONTACTS</h2>
+        <form action="">
+          <label class="titre" for="email">ADRESSE EMAIL</label>
+          <input type="email" name="email" placeholder="Adresse email">
+          <label class="titre" for="newsletter">NEWSLEETER</label>
+          <label class="sous-titre" for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de
+          Batman :</label>
+           <input class="checkbox" type="checkbox" name="checkbox">
+        <div class="recevoir">
+         <span class="texte">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+         <span class="icon">
+            <img src="./assets/Logos/icon_flèche_2.png" alt="">
+         </span>
         </div>
-    
-      </main>
-  
+        <div id="">
+          <p class="news">Souhaitez-vous recevoir des news</p>
+        </div>
+        <div class="btn-group">
+          <input type="radio" id="film">
+          <label for="films">Des Films</label>
+          <input type="radio" id="comics">
+          <label for="comics">Des Comics</label>
+          <input type="radio" id="tout">
+          <label for="tout">De tout</label> 
+        </div>
+          <p class="titre">MESSAGE</p>
+          <textarea name="" id="textarea" cols="30" placeholder="Laissez un commentaire pour la communauté"></textarea>
+          <input type="submit" value="COMFIRMER">
+      </form>
+      </div>  
+    </section>
+   
+
+  <!-- Section Citation -->
+  <section id="citation">
+      <div class="container">
+        <div class="guillemet-open">
+          <img src="./assets/Logos/icon_guillemets_1.png" alt="">
+        </div>
+        <div class="citation-preview">
+          <div>
+            <p class="citation-texte">« La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »</p>
+          </div>
+          <div class="citation-author">
+            The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
+          </div>
+        </div>
+        <div class="guillemet-close">
+        <img src="./assets/Logos/icon_guillemets_2.png" alt="">
+        </div>
+      </div>
+  </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="texte-footer">
+        <img src="./assets/Logos/icon_WB.png" alt="">
+        Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan &
+        Snyder & Reeves
+      </div>
+      <div class="social-icon-footer">
+        <div class="social-items" >
+            <a href="">
+              <img src="./assets/Logos/logo_sayna_white.png" alt="">
+              <img class="icon-x" src="./assets/Logos/icon_x.png" alt="">
+              <img src="./assets/Logos/icon_DC.png" alt="">
+            </a>
+        </div>
+        <div class="social-m-icon">
+            <a  href=""><img src="./assets/Logos/icon_facebook.png" alt=""></a>
+            <a href=""><img src="./assets/Logos/icon_ig.png" alt=""></a>
+            <a  href=""><img src="./assets/Logos/icon_tw.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+      
+  </footer>
   
   </body>
-  <footer>
-
-  </footer>
+  
 </html>

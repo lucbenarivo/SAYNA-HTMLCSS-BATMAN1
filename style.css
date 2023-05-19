@@ -72,10 +72,21 @@ ul a{
 .home-link:hover {
   font-weight: 600;
   text-decoration: 1px underline;
+  transition-delay: 0.03s;
   }
 
 ul a:active {
   opacity: 70%;
+}
+
+.bathome-logo:hover {
+  width: 102%;
+  transition-delay: 1s;
+}
+
+.bathome-logo:active {
+  width: 98%;
+  opacity: 90%;
 }
 
 ul {
@@ -153,21 +164,23 @@ ul {
   }
 
   .voir-hero:hover {
-    color: #FFFF00;
+    opacity: 40%;
+    transition-delay: 0.15s;
   }
 
   .voir-hero:active {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.336), rgba(255, 0, 0, 0.322));
-    color:#ffff0098
+    opacity: 100%;
+    transition-delay: 0.15s;
   }
 
   .adversaires-button:hover {
-    color: #FFFF00;
+    opacity: 40%;
+    transition-delay: 0.15s;
   }
 
   .adversaires-button:active {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.336), rgba(255, 0, 0, 0.322));
-    color:#ffff0098
+    opacity: 100%;
+    transition-delay: 0.15s;
   }
   .voir-hero {
     margin-left: 40px;
@@ -243,9 +256,10 @@ ul {
   .bathome-allies {
     position: absolute;
     right: 0;
-    top: 2700px;
-    text-align: right;
+    top: 2716px;
     height: 300px;
+
+    
   }
 
   .container-justice {
@@ -379,3 +393,208 @@ input[type=text] {
   font-weight: 300;
   font-size: 22px;
  }
+
+ /* Design de la partie Contact*/
+
+ #contact {
+  margin-top: 160px;
+  background-image: linear-gradient(to right, rgb(71, 75, 71), rgb(9, 30, 43));
+  padding: 70px 0;
+ }
+
+ #contact .form {
+  width: 50%;
+  margin: 0 auto;
+ }
+
+ #contact .prenons {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 36px;
+  font-family: 'rajdhani';
+ }
+
+ #contact .titre {
+  display: block;
+  margin: 30px 0;
+ }
+
+ #contact .form input[type='email'], textarea{
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  border-bottom: 1px solid lightslategray;
+  background: none;
+  color: lightgrey;
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-family: 'Space Grotesk';
+ }
+
+ #contact .icon img {
+  transform: rotate(90deg);
+  width: 16px;
+  float: right;
+  cursor: pointer;
+
+ }
+
+ #contact .titre {
+  font-size: 22px;
+ }
+
+ #contact .texte {
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+  
+ }
+
+ #contact .sous-titre {
+  color: grey;;
+ }
+
+ #contact .recevoir {
+  margin-top: 30px;
+  width: 100%;
+  border-bottom: 1px solid lightslategray;
+ }
+
+ #contact .news {
+  border-bottom: 1px solid lightslategray;
+  width: 100%;
+  font-size: 16px;
+  color: grey;
+  margin-top: 20px;
+ }
+
+ ::placeholder {
+  color: lightslategray;
+ }
+
+ #textarea {
+  height: 30px;
+ }
+
+ .btn-group {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+  }
+
+ .form .btn-group input[type='radio'] {
+  opacity: 0;
+ }
+
+ .btn-group label{
+  border: 1px solid;
+  padding: 10px 20px;
+  border-image: linear-gradient(to right, rgb(176, 177, 176), rgb(84, 73, 236)) 2;
+  font-size: 12px;
+  cursor: pointer;;
+ }
+ 
+ input[type='submit'] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: none;
+  background: none;
+  background-image: linear-gradient(to right,  rgba(255, 255, 255, 0.548), rgba(255, 0, 0, 0.473));
+  height: 60px;
+  width: 220px;
+  color: white;
+  font-size: 20px;
+  font-family: 'rajdhani';
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+ }
+
+ input[type='submit']:hover {
+  color: #FFFF00;
+ } 
+
+ input[type='submit']:active {
+  color: #ffff81;
+  opacity: 50%;
+ } 
+ /* Design de la partie citation */
+
+.guillemet-open {
+ margin-top: 140px;
+ }
+
+ #citation .citation-preview {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 45%;
+ }
+
+ #citation .guillemet-open {
+  margin-left: 100px;
+  margin-bottom: 40px;
+ }
+
+ #citation .guillemet-close img{
+  position: relative;
+  left: 80%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  
+  
+ }
+ #citation .citation-texte {
+  font-size: 16px;
+ }
+
+ #citation .citation-author {
+  font-size: 12px;
+  width: 40%;
+  margin: 0 auto;
+  line-height: 22px;
+ }
+
+ .texte-footer {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 60px;
+ }
+
+ .texte-footer img {
+  vertical-align: middle;
+ }
+
+ .social-icon-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  left: 400px;
+  margin-bottom: 120px;
+}
+
+.social-items img, a {
+  padding: 7px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.social-items img {
+  width: 60px;  
+}
+.social-items .icon-x {
+  width: 30px;  
+  vertical-align:baseline;
+  padding-bottom: 20px;
+  cursor:default;
+}
